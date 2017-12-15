@@ -7,8 +7,9 @@
 #  - MYSQL_MASTER_SERVER
 #  - MYSQL_MASTER_PORT
 #
-# IF using master-master-replication, provide config like "auto-increment-increment" & "auto-increment-offset"
-# as config-file (e.g. via bind volume)
+# Provide replication specific config like "server-id", "auto-increment-increment" 
+# (MASTER-MASTER), "auto-increment-offset" (MASTER-MASTER), "binlog-do-db" & 
+# "replicate-do-db" as config-file (e.g. via bind volume)
 
 #
 # MASTER/SLAVES: create replication user
