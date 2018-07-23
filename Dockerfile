@@ -6,3 +6,5 @@ COPY docker-entrypoint-wrapper.sh /docker-entrypoint-wrapper.sh
 # see: https://github.com/docker-library/mysql/issues/47
 ENTRYPOINT ["/bin/bash", "/docker-entrypoint-wrapper.sh"]
 CMD ["mysqld"]
+
+#moo
